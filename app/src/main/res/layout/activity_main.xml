@@ -5,15 +5,39 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
+    <!-- Formula -->
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/formula"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="60dp"
+        android:gravity="end"
+        android:text="formula"
+        android:textColor="#7D000000"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Result -->
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="end"
+        android:text="0"
+        android:textColor="#7D000000"
+        android:textSize="50sp"
+        app:layout_constraintTop_toBottomOf="@id/formula"/>
+
+    <!-- Buttons Layout -->
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
