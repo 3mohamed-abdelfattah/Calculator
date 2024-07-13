@@ -12,11 +12,11 @@
 
     <TextView
         android:id="@+id/formula"
-        android:fontFamily="@font/anton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="60dp"
+        android:fontFamily="@font/anton"
         android:gravity="end"
         android:text="@string/formula"
         android:textColor="#7D000000"
@@ -27,11 +27,11 @@
 
     <TextView
         android:id="@+id/resultUI"
-        android:fontFamily="@font/anton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/anton"
         android:gravity="end"
         android:text="@string/_0Num"
         android:textColor="#7D000000"
@@ -62,8 +62,8 @@
             android:layout_columnWeight="2"
             android:layout_marginEnd="10dp"
             android:backgroundTint="#54000000"
-            android:text="@string/c"
             android:fontFamily="@font/anton"
+            android:text="@string/c"
             android:textSize="30sp"
             app:cornerRadius="15dp" />
 
@@ -76,8 +76,8 @@
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:backgroundTint="#54000000"
-            android:text="@string/plus"
             android:fontFamily="@font/anton"
+            android:text="@string/plus"
             android:textSize="30sp"
             app:cornerRadius="15dp" />
 
@@ -89,8 +89,8 @@
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
-            android:fontFamily="@font/anton"
             android:backgroundTint="#54000000"
+            android:fontFamily="@font/anton"
             android:text="@string/devide"
             android:textSize="30sp"
             app:cornerRadius="15dp" />
@@ -104,10 +104,10 @@
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:background="#00000000"
+            android:fontFamily="@font/anton"
             android:text="@string/_7"
             android:textColor="#C2000000"
             android:textSize="30sp"
-            android:fontFamily="@font/anton"
             app:cornerRadius="15dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -119,10 +119,10 @@
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:background="#00000000"
+            android:fontFamily="@font/anton"
             android:text="@string/_8"
             android:textColor="#C2000000"
             android:textSize="30sp"
-            android:fontFamily="@font/anton"
             app:cornerRadius="15dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -134,8 +134,8 @@
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:background="#00000000"
-            android:text="@string/_9"
             android:fontFamily="@font/anton"
+            android:text="@string/_9"
             android:textColor="#C2000000"
             android:textSize="30sp"
             app:cornerRadius="15dp" />
@@ -149,9 +149,9 @@
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:backgroundTint="#54000000"
+            android:fontFamily="@font/anton"
             android:text="@string/multi"
             android:textSize="30sp"
-            android:fontFamily="@font/anton"
             app:cornerRadius="15dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -163,8 +163,8 @@
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:background="#00000000"
-            android:text="@string/_4"
             android:fontFamily="@font/anton"
+            android:text="@string/_4"
             android:textColor="#C2000000"
             android:textSize="30sp"
             app:cornerRadius="15dp" />
@@ -176,9 +176,9 @@
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:fontFamily="@font/anton"
             android:layout_marginEnd="10dp"
             android:background="#00000000"
+            android:fontFamily="@font/anton"
             android:text="@string/_5"
             android:textColor="#C2000000"
             android:textSize="30sp"
@@ -188,12 +188,12 @@
             android:id="@+id/six"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:fontFamily="@font/anton"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:background="#00000000"
+            android:fontFamily="@font/anton"
             android:text="@string/_6"
             android:textColor="#C2000000"
             android:textSize="30sp"
@@ -204,11 +204,11 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
-            android:fontFamily="@font/anton"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:backgroundTint="#54000000"
+            android:fontFamily="@font/anton"
             android:text="@string/minus"
             android:textSize="30sp"
             app:cornerRadius="15dp" />
@@ -221,8 +221,8 @@
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
-            android:fontFamily="@font/anton"
             android:background="#00000000"
+            android:fontFamily="@font/anton"
             android:text="@string/_1"
             android:textColor="#C2000000"
             android:textSize="30sp"
@@ -235,9 +235,9 @@
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:fontFamily="@font/anton"
             android:layout_marginEnd="10dp"
             android:background="#00000000"
+            android:fontFamily="@font/anton"
             android:text="@string/_2"
             android:textColor="#C2000000"
             android:textSize="30sp"
@@ -247,12 +247,12 @@
             android:id="@+id/three"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:fontFamily="@font/anton"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:background="#00000000"
+            android:fontFamily="@font/anton"
             android:text="@string/_3"
             android:textColor="#C2000000"
             android:textSize="30sp"
@@ -261,7 +261,6 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/equal"
             android:layout_width="0dp"
-            android:fontFamily="@font/anton"
             android:layout_height="0dp"
             android:layout_rowSpan="2"
             android:layout_rowWeight="2"
@@ -269,6 +268,7 @@
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:backgroundTint="#54000000"
+            android:fontFamily="@font/anton"
             android:text="@string/equal"
             android:textSize="30sp"
             app:cornerRadius="15dp" />
@@ -297,8 +297,8 @@
             android:layout_columnWeight="1"
             android:layout_marginEnd="10dp"
             android:background="#00000000"
-            android:text="@string/dot"
             android:fontFamily="@font/anton"
+            android:text="@string/dot"
             android:textColor="#C2000000"
             android:textSize="30sp"
             app:cornerRadius="15dp" />
