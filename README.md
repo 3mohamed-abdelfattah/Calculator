@@ -1,6 +1,6 @@
 # Calculator Project
 
-This is a simple calculator application built using Android.
+This is a simple calculator application built using Kotlin.
 
 ## Screenshots
 
